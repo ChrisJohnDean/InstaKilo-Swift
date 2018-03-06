@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		89FCA172204E7CD000A811E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA171204E7CD000A811E4 /* AppDelegate.swift */; };
-		89FCA174204E7CD000A811E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA173204E7CD000A811E4 /* ViewController.swift */; };
 		89FCA177204E7CD000A811E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FCA175204E7CD000A811E4 /* Main.storyboard */; };
 		89FCA179204E7CD000A811E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FCA178204E7CD000A811E4 /* Assets.xcassets */; };
 		89FCA17C204E7CD000A811E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FCA17A204E7CD000A811E4 /* LaunchScreen.storyboard */; };
 		89FCA187204E7CD000A811E4 /* InstaKilo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA186204E7CD000A811E4 /* InstaKilo_SwiftTests.swift */; };
 		89FCA192204E7CD000A811E4 /* InstaKilo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA191204E7CD000A811E4 /* InstaKilo_SwiftUITests.swift */; };
+		89FCA1A0204E7D5300A811E4 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA19F204E7D5300A811E4 /* CollectionViewController.swift */; };
+		89FCA1A2204E8A1500A811E4 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA1A1204E8A1500A811E4 /* Photo.swift */; };
+		89FCA1A4204E907F00A811E4 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA1A3204E907F00A811E4 /* HeaderView.swift */; };
+		89FCA1A6204E914300A811E4 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA1A5204E914300A811E4 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		89FCA16E204E7CD000A811E4 /* InstaKilo Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InstaKilo Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FCA171204E7CD000A811E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89FCA173204E7CD000A811E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89FCA176204E7CD000A811E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89FCA178204E7CD000A811E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89FCA17B204E7CD000A811E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		89FCA18D204E7CD000A811E4 /* InstaKilo SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InstaKilo SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FCA191204E7CD000A811E4 /* InstaKilo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaKilo_SwiftUITests.swift; sourceTree = "<group>"; };
 		89FCA193204E7CD000A811E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89FCA19F204E7D5300A811E4 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		89FCA1A1204E8A1500A811E4 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		89FCA1A3204E907F00A811E4 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		89FCA1A5204E914300A811E4 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				89FCA171204E7CD000A811E4 /* AppDelegate.swift */,
-				89FCA173204E7CD000A811E4 /* ViewController.swift */,
 				89FCA175204E7CD000A811E4 /* Main.storyboard */,
 				89FCA178204E7CD000A811E4 /* Assets.xcassets */,
 				89FCA17A204E7CD000A811E4 /* LaunchScreen.storyboard */,
 				89FCA17D204E7CD000A811E4 /* Info.plist */,
+				89FCA19F204E7D5300A811E4 /* CollectionViewController.swift */,
+				89FCA1A1204E8A1500A811E4 /* Photo.swift */,
+				89FCA1A3204E907F00A811E4 /* HeaderView.swift */,
+				89FCA1A5204E914300A811E4 /* FooterView.swift */,
 			);
 			path = "InstaKilo Swift";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89FCA174204E7CD000A811E4 /* ViewController.swift in Sources */,
+				89FCA1A2204E8A1500A811E4 /* Photo.swift in Sources */,
+				89FCA1A0204E7D5300A811E4 /* CollectionViewController.swift in Sources */,
 				89FCA172204E7CD000A811E4 /* AppDelegate.swift in Sources */,
+				89FCA1A6204E914300A811E4 /* FooterView.swift in Sources */,
+				89FCA1A4204E907F00A811E4 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
